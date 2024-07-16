@@ -6,7 +6,7 @@ import BannerFive from "./_components/banner5"
 
 export default function About() {
     return (
-        <div className="pt-[60px] bg-stone-50">
+        <div className="pt-[60px] bg-stone-50 pb-6">
             <BannerOne />
             <BannerTwo />
             <BannerThree />

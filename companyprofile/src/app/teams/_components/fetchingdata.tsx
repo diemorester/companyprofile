@@ -9,7 +9,7 @@ export default async function FetchingData() {
             <div className="max-w-[1000px] mx-auto font-semibold">
                 <div className="grid grid-cols-2 place-content-center font-semibold">
                     {
-                        data.results.map((item: any, idx: any) => (
+                        data.results.map((item: any, idx: number) => (
                             <div key={idx} className="flex flex-col">
                                 <img src={item.picture.large} width={150} height={150} alt="team1" className="rounded-[10px]" />
                                 <p>{item.name.first} {item.name.last}</p>

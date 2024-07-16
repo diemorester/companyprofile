@@ -11,7 +11,7 @@ export default function BannerFive() {
                         <p className="absolute right-6 top-[37%] place-content-end text-end text-xs md:text-sm pl-36 pr-2">At Kopiklyan, we pride ourselves on more than just brewing exceptional coffee; we celebrate the essence of family through our dedicated team, Keluarga Kalyan. Comprising passionate baristas, meticulous roasters, and warm-hearted service staff, each member of our team embodies the values of togetherness, warmth, and excellence.</p>
                     </div>
                     <div className="w-[400px] md:w-[500px] h-[320px] text-start place-content-center">
-                        <p className="pt-[60px] px-10 text-xs md:text-sm">Driven by a shared love for crafting the perfect cup of coffee and creating memorable experiences, the Kalyan Family ensures that every visit to our coffee shop is a delightful journey. Whether it's a friendly smile greeting you at the counter or the care put into each handcrafted beverage, our team is committed to making you feel like part of our extended family.</p>
+                        <p className="pt-[60px] px-10 text-xs md:text-sm">Driven by a shared love for crafting the perfect cup of coffee and creating memorable experiences, the Kalyan Family ensures that every visit to our coffee shop is a delightful journey. Whether it&apos;s a friendly smile greeting you at the counter or the care put into each handcrafted beverage, our team is committed to making you feel like part of our extended family.</p>
                     </div>
                 </div>
                 <div className="flex flex-wrap justify-center mx-auto bg-stone-50">

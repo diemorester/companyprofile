@@ -20,13 +20,13 @@ export default function Home() {
             <div className="flex justify-start gap-3">
               <div className="z-10 space-x-6 pt-4">
                 <Link href={'/product'}><button className="relative overflow-hidden  border-2 rounded-xl font-medium border-neutral-800 bg-transparent py-2 px-5 text-neutral-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-neutral-800 before:rounded-md before:transition-transform before:duration-300 before:content-[''] hover:text-stone-50 before:hover:scale-x-100">Our Product</button></Link>
-                <Link href={'/contact'}><button className="relative overflow-hidden  border-2 rounded-xl font-medium border-neutral-800 bg-transparent py-2 px-5 text-neutral-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#dea423] before:rounded-md before:transition-transform before:duration-300 before:content-[''] hover:text-stone-50 before:hover:scale-x-100">Contact Us</button></Link>
+                <Link href={'https://www.instagram.com/kopikalyan/?hl=en'} target="_blank"><button className="relative overflow-hidden  border-2 rounded-xl font-medium border-neutral-800 bg-transparent py-2 px-5 text-neutral-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#dea423] before:rounded-md before:transition-transform before:duration-300 before:content-[''] hover:text-stone-50 before:hover:scale-x-100">Contact Us</button></Link>
               </div>
             </div>
           </div>
           <div className="md:flex-initial max-[767px]:pt-4">
             <Image
-              src="/asset/heroimg.jpg"
+              src="/logo/heroimg.jpg"
               alt="hero"
               width={1100}
               height={300}
@@ -101,7 +101,11 @@ export default function Home() {
             <div className="card-body">
               <h2 className="card-title">Roti Kalyan</h2>
               <p className="text-sm">Entice your taste buds with classical Indonesian baked goods with a modernised feel and twist.</p>
-              <Button />
+              <div className="absolute bottom-3 inset-x-24 card-actions pt-2">
+                <button className="btn bg-stone-50 text-black transition-colors duration-150 ease-in-out hover:bg-[#dea423] hover:text-stone-50 border-none">
+                  <a href="/product#roti">More Info</a>
+                </button>
+              </div>
             </div>
           </div>
           <div className="card bg-neutral-400 w-72 h-[525px] shadow-xl">
@@ -113,7 +117,11 @@ export default function Home() {
                 <div className="badge absolute bg-red-600 text-stone-50 border-none rounded-lg right-24 cursor-default">NEW!</div>
               </h2>
               <p className="text-sm">The best single origin coffees of Indonesia sourced from the the West, in the province of Aceh, to the East, in the province of Papua.</p>
-              <Button />
+              <div className="absolute bottom-3 inset-x-24 card-actions pt-2">
+                <button className="btn bg-stone-50 text-black transition-colors duration-150 ease-in-out hover:bg-[#dea423] hover:text-stone-50 border-none">
+                  <a href="/product#drip">More Info</a>
+                </button>
+              </div>
             </div>
           </div>
           <div className="card bg-neutral-400 w-72 h-[525px] shadow-xl">
@@ -123,7 +131,11 @@ export default function Home() {
             <div className="card-body">
               <h2 className="card-title">Origami</h2>
               <p className="text-sm">High quality coffee-related tools designated for baristas and homebrewers who are looking to bring out the original taste of beans.</p>
-              <Button />
+              <div className="absolute bottom-3 inset-x-24 card-actions pt-2">
+                <button className="btn bg-stone-50 text-black transition-colors duration-150 ease-in-out hover:bg-[#dea423] hover:text-stone-50 border-none">
+                  <a href="/product#origami">More Info</a>
+                </button>
+              </div>
             </div>
           </div>
         </div>

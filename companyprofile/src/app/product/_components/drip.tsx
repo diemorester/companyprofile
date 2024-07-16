@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Drip() {
     return (
-        <div className="w-full">
+        <div className="w-full" id="drip">
             <div className="max-w-[1000px] mt-28 mx-auto"></div>
             <h2 className="text-2xl font-black px-7 py-5">/Kopi Atlas</h2>
             <div className="flex flex-wrap justify-center gap-5 rounded-sm">
