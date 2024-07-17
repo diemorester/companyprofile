@@ -94,7 +94,7 @@ export default function Home() {
               <p className="text-sm">Coffee based and non-coffee based Ready To Drink (RTD) handcrafted by our skilled and friendly employees.</p>
               <div className="absolute bottom-3 inset-x-24 card-actions pt-2">
                 <button className="btn bg-stone-50 text-black transition-colors duration-150 ease-in-out hover:bg-[#dea423] hover:text-stone-50 border-none">
-                  <a href="/product" className="text-xs">More Info</a>
+                  <a href="/product" className="text-sm m-[10px]">More Info</a>
                 </button>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function Home() {
               <p className="text-sm">Entice your taste buds with classical Indonesian baked goods with a modernised feel and twist.</p>
               <div className="absolute bottom-3 inset-x-24 card-actions pt-2">
                 <button className="btn bg-stone-50 text-black transition-colors duration-150 ease-in-out hover:bg-[#dea423] hover:text-stone-50 border-none">
-                  <a href="/product#roti" className="text-xs">More Info</a>
+                  <a href="/product#roti" className="text-sm m-2">More Info</a>
                 </button>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
               <p className="text-sm">The best single origin coffees of Indonesia sourced from the the West, in the province of Aceh, to the East, in the province of Papua.</p>
               <div className="absolute bottom-3 inset-x-24 card-actions pt-2">
                 <button className="btn bg-stone-50 text-black transition-colors duration-150 ease-in-out hover:bg-[#dea423] hover:text-stone-50 border-none">
-                  <a href="/product#drip" className="text-xs">More Info</a>
+                  <a href="/product#drip" className="text-sm m-2">More Info</a>
                 </button>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Home() {
               <p className="text-sm">High quality coffee-related tools designated for baristas and homebrewers who are looking to bring out the original taste of beans.</p>
               <div className="absolute bottom-3 inset-x-24 card-actions pt-2">
                 <button className="btn bg-stone-50 text-black transition-colors duration-150 ease-in-out hover:bg-[#dea423] hover:text-stone-50 border-none">
-                  <a href="/product#origami" className="text-xs">More Info</a>
+                  <a href="/product#origami" className="text-sm m-2">More Info</a>
                 </button>
               </div>
             </div>
