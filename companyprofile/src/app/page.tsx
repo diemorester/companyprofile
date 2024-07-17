@@ -29,7 +29,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="max-[666px]:w-[4oopx] md:flex-initial max-[767px]:pt-4">
+          <div className="md:flex-initial max-[767px]:pt-4">
             <Image
               src="/logo/heroimg2.jpg"
               alt="hero"
