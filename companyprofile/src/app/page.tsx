@@ -11,7 +11,7 @@ export default function Home() {
         <div className="md:flex pt-[60px] bg-stone-50">
           <div className="md:flex-initial place-content-center items-center justify-center mx-6">
             <Image className=""
-              src="/asset/logo.png"
+              src="/logo/logo.png"
               alt="logo"
               width={350}
               height={300}

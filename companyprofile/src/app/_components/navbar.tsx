@@ -8,7 +8,7 @@ export default function NavBar() {
             <div className="fixed w-full flex justify-between px-5 py-2 md:pl-5 md:pr-20 h-[60px] bg-stone-50 items-center z-20">
                 <div className="flex flex-wrap gap-1 w-[151px] justify-center">
                     <Image className="max-h-8 origin-center"
-                        src="/asset/cup-logo.png"
+                        src="/logo/cup-logo.png"
                         width={30}
                         height={30}
                         alt="cup"
