@@ -7,6 +7,7 @@ import img5 from "../../public/footer/footer4.webp"
 import img6 from "../../public/footer/footer5.webp"
 import img7 from "../../public/footer/footer6.webp"
 import img8 from "../../public/footer/footer7.webp"
+import Link from "next/link"
 
 export default function Footer() {
     return (
@@ -15,29 +16,29 @@ export default function Footer() {
                 <footer className="footer bg-stone-50 text-xs p-10">
                     <nav>
                         <h6 className="footer-title">Kopikalyan</h6>
-                        <a className="link link-hover" href="/about" target="_blank">About</a>
-                        <a className="link link-hover" href="/product" target="_blank">KK To-Go</a>
-                        <a className="link link-hover" href="/product#roti" target="_blank">Roti Kalyan</a>
-                        <a className="link link-hover" href="/product#drip" target="_blank">Kopi Atlas</a>
-                        <a className="link link-hover" href="/product#origami" target="_blank">Origami</a>
+                        <Link className="link link-hover" href="/about" target="_blank">About</Link>
+                        <Link className="link link-hover" href="/product" target="_blank">KK To-Go</Link>
+                        <Link className="link link-hover" href="/product#roti" target="_blank">Roti Kalyan</Link>
+                        <Link className="link link-hover" href="/product#drip" target="_blank">Kopi Atlas</Link>
+                        <Link className="link link-hover" href="/product#origami" target="_blank">Origami</Link>
                     </nav>
                     <nav>
                         <h6 className="footer-title">Coffee</h6>
-                        <a className="link link-hover" href="https://www.kopikalyan.com/wholesale" target="_blank">Wholesale</a>
-                        <a className="link link-hover" href="https://www.kopikalyan.com/training" target="_blank">Trainings</a>
-                        <a className="link link-hover" href="https://www.kopikalyan.com/coffeecatering" target="_blank">Coffee Catering</a>
-                        <a className="link link-hover" href="https://www.kopikalyan.com/projectsangrai" target="_blank">Project Sangrai</a>
+                        <Link className="link link-hover" href="https://www.kopikalyan.com/wholesale" target="_blank">Wholesale</Link>
+                        <Link className="link link-hover" href="https://www.kopikalyan.com/training" target="_blank">Trainings</Link>
+                        <Link className="link link-hover" href="https://www.kopikalyan.com/coffeecatering" target="_blank">Coffee Catering</Link>
+                        <Link className="link link-hover" href="https://www.kopikalyan.com/projectsangrai" target="_blank">Project Sangrai</Link>
                     </nav>
                     <nav>
                         <h6 className="footer-title">Shop</h6>
-                        <a className="link link-hover" target="_blank" href="https://www.tokopedia.com/kopikalyan">Indonesia</a>
-                        <a className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyanjapan/">Japan</a>
+                        <Link className="link link-hover" target="_blank" href="https://www.tokopedia.com/kopikalyan">Indonesia</Link>
+                        <Link className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyanjapan/">Japan</Link>
                     </nav>
                     <nav>
                         <h6 className="footer-title">Social Media</h6>
-                        <a className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyan/?hl=en">Kopikalyan Instagram</a>
-                        <a className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyan/?hl=en">Kopikalyan Archive Instagram</a>
-                        <a className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyanjapan/">Kopikalyan Japan</a>
+                        <Link className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyan/?hl=en">Kopikalyan Instagram</Link>
+                        <Link className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyan/?hl=en">Kopikalyan Archive Instagram</Link>
+                        <Link className="link link-hover" target="_blank" href="https://www.instagram.com/kopikalyanjapan/">Kopikalyan Japan</Link>
                         <p className="">TikTok</p>
                         <p className="">Twitter</p>
                     </nav>

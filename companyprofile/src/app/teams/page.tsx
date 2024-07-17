@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import FetchingData from "./_components/fetchingdata";
+
+export const metadata: Metadata = {
+    title: "kopikalyan",
+    description: "Team | Kopikalyan",
+};
 
 export default function Teams() {
     return (

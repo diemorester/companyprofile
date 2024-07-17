@@ -1,10 +1,15 @@
 import Image from "next/image";
-import Coffee from "./_components/coffee";
 import Roti from "./_components/rotikalyan";
 import Drip from "./_components/drip";
 import Origami from "./_components/origami";
 import Testimony from "../_components/testimony";
 import FetchCoffee from "./_components/fetchCoffee";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "kopikalyan",
+    description: "Products | Kopikalyan",
+};
 
 export default function Products() {
     return (

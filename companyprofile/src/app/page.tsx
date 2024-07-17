@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-import Button from "./_components/button";
 import Testimony from "./_components/testimony";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "kopikalyan",
+  description: "Home | Kopikalyan",
+};
 
 export default function Home() {
   return (

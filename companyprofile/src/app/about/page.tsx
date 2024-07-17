@@ -1,8 +1,14 @@
+import { Metadata } from "next"
 import BannerOne from "./_components/banner"
 import BannerTwo from "./_components/banner2"
 import BannerThree from "./_components/banner3"
 import BannerFour from "./_components/banner4"
 import BannerFive from "./_components/banner5"
+
+export const metadata: Metadata = {
+    title: "kopikalyan",
+    description: "About Us | Kopikalyan",
+};
 
 export default function About() {
     return (
