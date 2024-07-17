@@ -3,7 +3,7 @@ import FetchingData from "./_components/fetchingdata";
 
 export const metadata: Metadata = {
     title: "kopikalyan",
-    description: "Team | Kopikalyan",
+    description: "Teams | Kopikalyan",
 };
 
 export default function Teams() {
