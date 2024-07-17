@@ -63,19 +63,19 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center lg:flex-row">
           <Image
-            src="/home/home2.jpg"
+            src="/home/home21.jpg"
             alt="home2"
             width={450}
             height={300}
           />
           <Image
-            src="/home/home3.jpg"
+            src="/home/home31.jpg"
             alt="home3"
             width={449}
             height={300}
           />
           <Image
-            src="/home/home6.jpg"
+            src="/home/home61.jpg"
             alt="home6"
             width={450}
             height={300}
