@@ -29,7 +29,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="md:flex-initial max-[767px]:pt-4">
+          <div className="max-[666px]:w-[4oopx] md:flex-initial max-[767px]:pt-4">
             <Image
               src="/logo/heroimg2.jpg"
               alt="hero"
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="flex-1 flex flex-col text-center items-center px-3 gap-6 md:gap-3 mt-[20px] bg-stone-50">
             <h1 className="font-semibold text-3xl flex md:mt-10">a brief about us</h1>
-            <p className="px-[50px] my-10 md:pt-10">Kopikalyan is a specialty coffee roaster with cafes in Jakarta, Indonesia. We are a group of like minded individuals who share a love for great coffee and an untiring desire to break new ground. Coffee is our passion, we love to taste coffee, learn about coffee and explore coffee from various corners of the world, especially from our home land of Indonesia. Not only we love to brew and serve coffee, we also love to source and roast coffee from the finest regions of Indonesia.</p>
+            <p className="max-[666px]:text-xs px-[50px] my-10 md:pt-10">Kopikalyan is a specialty coffee roaster with cafes in Jakarta, Indonesia. We are a group of like minded individuals who share a love for great coffee and an untiring desire to break new ground. Coffee is our passion, we love to taste coffee, learn about coffee and explore coffee from various corners of the world, especially from our home land of Indonesia. Not only we love to brew and serve coffee, we also love to source and roast coffee from the finest regions of Indonesia.</p>
           </div>
         </div>
         <div className="flex flex-col items-center lg:flex-row">

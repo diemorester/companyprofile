@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="mx-auto">
                 <footer className="footer bg-stone-50 text-xs p-10">
                     <nav>
-                        <h6 className="footer-title">Kopikalyan</h6>
+                        <h6 className="footer-title">Kalyan</h6>
                         <Link className="link link-hover" href="/about" target="_blank">About</Link>
                         <Link className="link link-hover" href="/product" target="_blank">KK To-Go</Link>
                         <Link className="link link-hover" href="/product#roti" target="_blank">Roti Kalyan</Link>
