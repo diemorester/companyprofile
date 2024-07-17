@@ -48,7 +48,7 @@ export default function Home() {
           <Image className="m-5 hover:scale-125" src="/carousel/carousel6.png" alt="carousel6" width={100} height={100} />
         </Marquee>
         <div className="flex w-full h-auto flex-col md:flex-row gap-3 md:gap-0">
-          <div className="flex-1">
+          <div className="flex-1 max-[666px]:hidden">
             <Image
               src="/home/home1.jpg"
               alt="home1"
