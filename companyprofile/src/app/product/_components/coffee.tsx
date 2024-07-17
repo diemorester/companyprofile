@@ -9,6 +9,7 @@ interface IProps {
 }
 
 export default function Coffee({name, description, price, image}: IProps) {
+    
     return (
         <div className="w-full">
             <div className="max-w-[1000px] mx-auto">
@@ -22,7 +23,7 @@ export default function Coffee({name, description, price, image}: IProps) {
                         </a>
                         <Link href=""></Link>
                         <div className="">
-                            <Image src={image} alt="kopi1" width={300} height={300} />
+                            <Image src={`https:${image}`} alt="kopi1" width={300} height={300} />
                         </div>
                     </div>
                 </div>
