@@ -12,6 +12,7 @@ export default function Sidebar() {
         <div className="relative">
             <div className="ml-auto">
                 <button
+                    id="text"
                     className="bg-stone-50 hover:bg-stone-50 text-black font-bold py-2 px-4 rounded"
                     onClick={() => setIsOpen(!isOpen)}
                 >
