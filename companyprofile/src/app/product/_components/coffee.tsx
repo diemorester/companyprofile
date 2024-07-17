@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 interface IProps {
     name: string
@@ -21,7 +20,6 @@ export default function Coffee({name, description, price, image}: IProps) {
                             <p className="mx-auto px-3 pb-16 text-lg font-bold tracking-wider">{name}</p>
                             <p className="absolute bottom-16 text-xs">{price}</p>
                         </div>
-                        <Link href=""></Link>
                         <div className="">
                             <Image src={`https:${image}`} alt="kopi1" width={300} height={300} />
                         </div>
