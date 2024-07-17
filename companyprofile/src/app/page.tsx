@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className="md:flex-initial max-[767px]:pt-4">
             <Image
-              src="/logo/heroimg.jpg"
+              src="/logo/heroimg2.jpg"
               alt="hero"
               width={1100}
               height={300}
