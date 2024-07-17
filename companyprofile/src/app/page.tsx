@@ -40,10 +40,10 @@ export default function Home() {
           </div>
         </div>
         <Marquee autoFill pauseOnHover speed={35} gradient className="my-7">
-          <Image className="m-5 hover:scale-125" src="/carousel/carousel1.png" alt="carousel1" width={100} height={100} />
+          <Image className="m-5 hover:scale-125" src="/carousel/carousel11.png" alt="carousel1" width={100} height={100} />
           <Image className="m-5 hover:scale-125" src="/carousel/carousel2.png" alt="carousel2" width={100} height={100} />
-          <Image className="m-5 hover:scale-125" src="/carousel/carousel3.png" alt="carousel3" width={100} height={100} />
-          <Image className="m-5 hover:scale-125" src="/carousel/carousel4.png" alt="carousel4" width={100} height={100} />
+          <Image className="m-5 hover:scale-125" src="/carousel/carousel31.png" alt="carousel3" width={100} height={100} />
+          <Image className="m-5 hover:scale-125" src="/carousel/carousel41.png" alt="carousel4" width={100} height={100} />
           <Image className="m-5 hover:scale-125" src="/carousel/carousel5.png" alt="carousel5" width={100} height={100} />
           <Image className="m-5 hover:scale-125" src="/carousel/carousel6.png" alt="carousel6" width={100} height={100} />
         </Marquee>
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="relative flex flex-wrap gap-5 bg-stone-50 justify-center mx-5 lg:gap-0 lg:justify-evenly">
           <div className="card bg-neutral-400 w-72 h-[525px] shadow-xl">
             <figure>
-              <Image src="/products/product1.jpg" alt="product1" width={350} height={350} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
+              <Image src="/products/product11.jpg" alt="product1" width={350} height={350} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">KK To-Go</h2>
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <div className="card bg-neutral-400 w-72 h-[525px] shadow-xl">
             <figure>
-              <Image src="/products/product2.jpg" alt="product2" width={350} height={400} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
+              <Image src="/products/product21.jpg" alt="product2" width={350} height={400} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Roti Kalyan</h2>
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
           <div className="card bg-neutral-400 w-72 h-[525px] shadow-xl">
             <figure>
-              <Image src="/products/product3.jpg" alt="product3" width={350} height={400} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
+              <Image src="/products/product31.jpg" alt="product3" width={350} height={400} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
             </figure>
             <div className="card-body relative">
               <h2 className="card-title">Kopi Atlas
@@ -131,7 +131,7 @@ export default function Home() {
           </div>
           <div className="card bg-neutral-400 w-72 h-[525px] shadow-xl">
             <figure>
-              <Image src="/products/product4.jpg" alt="product4" width={350} height={400} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
+              <Image src="/products/product41.jpg" alt="product4" width={350} height={400} className="hover:scale-125 overflow-hidden duration-300 ease-in-out" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Origami</h2>
