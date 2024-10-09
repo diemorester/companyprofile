@@ -24,8 +24,15 @@ export default function Home() {
             <h1 className="italic md:w-[450px] py-2">“Our passion is coffee. Serving and sharing a cup of coffee coupled with stories that come along them gives us great satisfaction.”</h1>
             <div className="flex justify-start gap-3">
               <div className="z-10 space-x-6 pt-4">
-                <Link href={'/product'}><button className="relative overflow-hidden  border-2 rounded-xl font-medium border-neutral-800 bg-transparent py-2 px-5 text-neutral-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-neutral-800 before:rounded-md before:transition-transform before:duration-300 before:content-[''] hover:text-stone-50 before:hover:scale-x-100">Our Product</button></Link>
-                <Link href={'https://www.instagram.com/kopikalyan/?hl=en'} target="_blank"><button className="relative overflow-hidden  border-2 rounded-xl font-medium border-neutral-800 bg-transparent py-2 px-5 text-neutral-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#dea423] before:rounded-md before:transition-transform before:duration-300 before:content-[''] hover:text-stone-50 before:hover:scale-x-100">Contact Us</button></Link>
+                <Link href={'/product'}>
+                  <button className="relative overflow-hidden border-2 rounded-xl font-medium border-neutral-800 bg-transparent py-2 px-5 text-neutral-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-neutral-800 before:rounded-md before:transition-transform before:duration-300 before:content-[''] hover:text-stone-50 before:hover:scale-x-100">
+                    Our Product
+                  </button>
+                </Link>
+                <Link href={'https://www.instagram.com/kopikalyan/?hl=en'} target="_blank">
+                  <button className="relative overflow-hidden  border-2 rounded-xl font-medium border-neutral-800 bg-transparent py-2 px-5 text-neutral-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#dea423] before:rounded-md before:transition-transform before:duration-300 before:content-[''] hover:text-stone-50 before:hover:scale-x-100">
+                    Contact Us
+                  </button></Link>
               </div>
             </div>
           </div>
